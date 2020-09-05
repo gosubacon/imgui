@@ -13,6 +13,10 @@ examples/*/Debug/*
 examples/*/Release/*
 examples/*/x64/*
 
+# Binaries
+**/bin/
+**/bin-int
+
 ## Visual Studio artifacts
 .vs
 ipch
@@ -25,6 +29,13 @@ ipch
 *.suo
 *.VC.db
 *.VC.VC.opendb
+
+# Visual Studio Files
+.vs/
+**.sln
+**.vcxproj
+**vcxproj.filters
+**.vcxproj.user
 
 ## Xcode artifacts
 project.xcworkspace
